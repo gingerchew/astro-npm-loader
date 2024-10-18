@@ -2,7 +2,7 @@
   "name": "astro-npm-loader",
   "type": "module",
   "description": "Load Data from NPM packages into Content Collections",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "keywords": [
     "withastro",
     "content-loader"
