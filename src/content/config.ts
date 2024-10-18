@@ -3,6 +3,6 @@ import { defineCollection } from "astro:content";
 
 export const collections = {
     npm: defineCollection({
-        loader: await npmLoader({ username: 'gingerchew' })
+        loader: npmLoader({ username: 'gingerchew' })
     })
 }
