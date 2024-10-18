@@ -8,10 +8,12 @@
     "name": "Ginger",
     "email":"26461046+gingerchew@users.noreply.github.com"
   },
+  "main": "./loader.ts",
   "maintainers": [{
     "name": "Ginger",
     "email": "26461046+gingerchew@users.noreply.github.com"
   }],
+  "homepage": "https://github.com/gingerchew/astro-npm-loader",
   "repository": {
     "type": "git",
     "url": "https://github.com/gingerchew/astro-npm-loader"
