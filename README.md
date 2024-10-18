@@ -23,3 +23,4 @@ export const collections = {
 - [ ] Include download stats
 - [ ] Test against users with multiple pages of packages
 - [ ] Tests?
+- [ ] Improve typing
