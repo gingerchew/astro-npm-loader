@@ -1,3 +1,6 @@
 src/
 public/
 astro.config.mjs
+.astro
+.vscode
+tsconfig.json
