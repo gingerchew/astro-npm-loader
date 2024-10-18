@@ -19,6 +19,7 @@
   "bugs": {
     "url": "https://github.com/gingerchew/astro-npm-loader/issues"
   },
+  "license":"MIT",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
