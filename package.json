@@ -1,7 +1,24 @@
 {
   "name": "astro-npm-loader",
   "type": "module",
-  "version": "0.0.1",
+  "description": "Load Data from NPM packages into Content Collections",
+  "version": "0.0.2",
+  "keywords": ["withastro","content-loader"],
+  "author": {
+    "name": "Ginger",
+    "email":"26461046+gingerchew@users.noreply.github.com"
+  },
+  "maintainers": [{
+    "name": "Ginger",
+    "email": "26461046+gingerchew@users.noreply.github.com"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gingerchew/astro-npm-loader"
+  },
+  "bugs": {
+    "url": "https://github.com/gingerchew/astro-npm-loader/issues"
+  },
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
