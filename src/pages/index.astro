@@ -1,7 +1,9 @@
 ---
+import { getCollection } from "astro:content";
 
+const collection = await getCollection('npm');
+console.log({ collection });
 ---
-
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
@@ -11,6 +13,10 @@
 		<title>Astro</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		{collection.map(({ data }) => (console.log(data),<li>
+			{data.name} - {data.version}<br/>
+			{data.date}<br/>
+			<a href={data.links.npm}>See on NPM</a>
+		</li>))}
 	</body>
 </html>
