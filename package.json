@@ -5,7 +5,8 @@
   "version": "0.1.1",
   "keywords": [
     "withastro",
-    "content-loader"
+    "content-loader",
+    "astro-loader"
   ],
   "author": {
     "name": "Ginger",
